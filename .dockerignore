@@ -1,0 +1,8 @@
+__pycache__
+*.pyc
+.git
+.idea
+*.ipynb_checkpoints
+.env
+*.pth
+training_history.png
