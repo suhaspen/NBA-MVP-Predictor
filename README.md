@@ -33,13 +33,6 @@ NBA_Project/
 ├── requirements.txt
 └── README.md
 ```
-
-## Installation
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 
 ### 1. Scrape and prepare data (30 years, 5000+ data points)
@@ -79,7 +72,3 @@ Then: `curl "http://localhost:5000/api/predict?year=2021&top_n=5"`
 - **Models:** Logistic Regression and XGBoost, trained with 5-fold stratified cross-validation.
 - **Prediction accuracy (78%+):** Percentage of seasons where the **actual MVP was in our top-3 predicted candidates** (or top-5 if needed to meet the target). This is evaluated on the full 30-year dataset and reported in `models/accuracy.txt` after training.
 - **Features:** Age, games, minutes, points, rebounds, assists, steals, blocks, shooting percentages, win shares, and engineered metrics (per-36, PER-like, usage proxy).
-
-## License
-
-This project is for educational purposes.
