@@ -1,6 +1,4 @@
 # NBA MVP Predictor
-
-**Dec 2025 – Feb 2026**  
 **Technologies:** Python, BeautifulSoup, Pandas, Scikit-Learn
 
 A machine learning project that predicts NBA Most Valuable Player (MVP) winners using historical statistics scraped from basketball-reference.com (NBA statistics reference). The pipeline trains Logistic Regression and XGBoost models, evaluates them with cross-validation, and exposes predictions via a REST API for real-time queries. The application is containerized with Docker and uses a modular backend architecture for scalable deployment.
